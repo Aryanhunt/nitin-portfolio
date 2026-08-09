@@ -38,6 +38,11 @@ export default function Close() {
         </span>
       </div>
 
+      <div className="close-credit">
+        Built by{' '}
+        <a href="https://github.com/Aryanhunt" target="_blank" rel="noopener noreferrer">Aryan Chaubey</a>
+      </div>
+
       <div className="close-wm">NITIN<span>.</span></div>
     </section>
   )

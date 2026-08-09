@@ -499,18 +499,41 @@ img{display:block;max-width:100%}
 
 /* ── CLOSE ── */
 .close-sec{padding:120px 5vw 0;border-top:1px solid var(--hair);overflow:hidden}
-.close-inner{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:2rem;margin-bottom:4rem}
+.close-inner{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:4rem;align-items:start;
+  margin-bottom:4rem;
+}
+@media(max-width:700px){.close-inner{grid-template-columns:1fr;gap:2.5rem}}
 .close-h{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(1.8rem,4vw,3.2rem);letter-spacing:-.025em;max-width:28ch}
-.close-fine{font-size:11px;color:var(--muted);letter-spacing:.06em;margin-top:.75rem}
 .close-quote{
   font-size:clamp(13px,1.4vw,16px);color:var(--ink2);line-height:1.8;
   max-width:36ch;font-style:italic;margin-top:1.5rem;
   border-left:1px solid var(--amber);padding-left:1.2rem;
 }
-.close-btns{display:flex;gap:1rem;flex-wrap:wrap;align-self:flex-end}
+.close-contact-block{display:flex;flex-direction:column;gap:0}
+.close-contact-row{
+  display:grid;grid-template-columns:90px 1fr;
+  gap:.5rem;padding:.7rem 0;
+  border-bottom:1px solid var(--hair);
+  align-items:center;
+}
+.close-contact-label{
+  font-size:9.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);
+}
+.close-contact-val{
+  font-size:13px;color:var(--ink2);
+}
+.close-contact-link{
+  color:var(--amber);transition:opacity .2s;
+}
+.close-contact-link:hover{opacity:.7}
+.close-btns{display:flex;gap:.75rem;flex-wrap:wrap}
 .close-footer{
   border-top:1px solid var(--hair);padding:1.2rem 0;
-  display:flex;justify-content:space-between;align-items:center;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;
   font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
 }
 .close-wm{
@@ -521,6 +544,16 @@ img{display:block;max-width:100%}
   white-space:nowrap;
 }
 .close-wm span{color:var(--amber)}
+.close-credit{
+  padding:.9rem 0 1.4rem;
+  font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);text-align:center;
+  border-top:1px solid var(--hair);
+}
+.close-credit a{
+  color:var(--amber);transition:opacity .2s;
+}
+.close-credit a:hover{opacity:.7}
 
 .close-credit{
   padding:.8rem 0 1.5rem;
@@ -636,3 +669,4 @@ img{display:block;max-width:100%}
   .roster-row--poster{grid-template-columns:1fr}
   .roster-count{text-align:left}
 }
+

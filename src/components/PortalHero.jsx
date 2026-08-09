@@ -35,7 +35,7 @@ function BannerImg() {
       <img
         src="/nitin/nitin.jpeg"
         alt="Nitin Chaubey"
-        style={{ width:'100%', height:'100%', objectFit:'cover', objectPosition:'center', display:'block' }}
+        style={{ width:'100%', height:'100%', objectFit:'cover', objectPosition:'top center', display:'block' }}
       />
     </div>
   )

@@ -189,9 +189,10 @@ img{display:block;max-width:100%}
   display:flex;gap:0;white-space:nowrap;
   pointer-events:none;will-change:transform,letter-spacing;
   font-family:'Syne',sans-serif;font-weight:800;
-  font-size:clamp(2.6rem,9vw,8rem);
+  font-size:clamp(1.4rem,8vw,8rem);
   letter-spacing:-.02em;color:var(--ink);z-index:10;
   text-shadow:0 2px 40px rgba(0,0,0,.5);
+  width:90vw;justify-content:center;
 }
 .portal-title span{will-change:transform;display:inline-block}
 
@@ -610,25 +611,18 @@ img{display:block;max-width:100%}
 .releases-btns{display:flex;gap:1rem;flex-wrap:wrap}
 
 @media(max-width:600px){
-  .portal-title{font-size:clamp(1.6rem,9vw,2.6rem);gap:.15em}
-  .portal-meta{font-size:9px;letter-spacing:.1em}
-  .portal-meta-tl{top:72px;left:4vw}
-  .portal-meta-tr{top:72px;right:4vw}
-  .portal-meta-bl{bottom:48px;left:4vw}
-  .portal-meta-br{bottom:48px;right:4vw}
-  .portal-artist-name{top:calc(50% + 3.2rem)}
+  .portal-meta{font-size:8px;letter-spacing:.08em}
+  .portal-meta-tl{top:68px;left:3vw}
+  .portal-meta-tr{top:68px;right:3vw}
+  .portal-meta-bl{bottom:44px;left:3vw}
+  .portal-meta-br{bottom:44px;right:3vw}
+  .portal-artist-name{top:calc(50% + 2.4rem)}
+  .portal-artist-label{font-size:.85rem}
   .lb-nav-l{left:.5rem}
   .lb-nav-r{right:.5rem}
-  .filmstrip-frame{width:150px;height:110px}
-  /* statement profile image — hide on small screens to avoid crop/overflow */
   .statement-img{display:none}
   .statement{padding:80px 5vw}
-  /* poster rows stack nicely on small screens */
   .roster-row{grid-template-columns:1fr;gap:.6rem}
-  .roster-row--poster{grid-template-columns:1fr;grid-template-rows:auto}
-  .roster-row--poster .roster-poster{
-    grid-column:1;grid-row:auto;
-    width:120px;justify-self:start;
-  }
-  .roster-count{text-align:left;padding-top:.2rem}
+  .roster-row--poster{grid-template-columns:1fr}
+  .roster-count{text-align:left}
 }

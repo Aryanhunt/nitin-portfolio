@@ -4,34 +4,34 @@ const GROUPS = [
   {
     key: 'Model', label: 'Model Shoot', code: 'NC-M',
     cards: [
-      { img:'/nitin/photoshoot/model/Copy of DSC00275.jpg', code:'NC-M01', title:'Model Shoot — I'    },
-      { img:'/nitin/photoshoot/model/Copy of DSC00290.jpg', code:'NC-M02', title:'Model Shoot — II'   },
-      { img:'/nitin/photoshoot/model/Copy of DSC00318.jpg', code:'NC-M03', title:'Model Shoot — III'  },
-      { img:'/nitin/photoshoot/model/Copy of DSC00337.jpg', code:'NC-M04', title:'Model Shoot — IV'   },
-      { img:'/nitin/photoshoot/model/Copy of DSC00354.jpg', code:'NC-M05', title:'Model Shoot — V'    },
-      { img:'/nitin/photoshoot/model/Copy of DSC00357.jpg', code:'NC-M06', title:'Model Shoot — VI'   },
-      { img:'/nitin/photoshoot/model/Copy of DSC00397.jpg', code:'NC-M07', title:'Model Shoot — VII'  },
-      { img:'/nitin/photoshoot/model/Copy of DSC00521.jpg', code:'NC-M08', title:'Model Shoot — VIII' },
+      { img:'/nitin/photoshoot/model/model-01.jpg', code:'NC-M01', title:'Model Shoot — I'    },
+      { img:'/nitin/photoshoot/model/model-02.jpg', code:'NC-M02', title:'Model Shoot — II'   },
+      { img:'/nitin/photoshoot/model/model-03.jpg', code:'NC-M03', title:'Model Shoot — III'  },
+      { img:'/nitin/photoshoot/model/model-04.jpg', code:'NC-M04', title:'Model Shoot — IV'   },
+      { img:'/nitin/photoshoot/model/model-05.jpg', code:'NC-M05', title:'Model Shoot — V'    },
+      { img:'/nitin/photoshoot/model/model-06.jpg', code:'NC-M06', title:'Model Shoot — VI'   },
+      { img:'/nitin/photoshoot/model/model-07.jpg', code:'NC-M07', title:'Model Shoot — VII'  },
+      { img:'/nitin/photoshoot/model/model-08.jpg', code:'NC-M08', title:'Model Shoot — VIII' },
     ]
   },
   {
     key: 'Shehnaaz', label: 'Shehnaaz Gill', code: 'NC-S',
     cards: [
-      { img:'/nitin/photoshoot/shehnaazgill/WhatsApp Image 2025-04-23 at 21.33.01_048954b8.jpg', code:'NC-S01', title:'Shehnaaz Gill — I'   },
-      { img:'/nitin/photoshoot/shehnaazgill/WhatsApp Image 2025-04-23 at 21.33.29_d2d3b065.jpg', code:'NC-S02', title:'Shehnaaz Gill — II'  },
-      { img:'/nitin/photoshoot/shehnaazgill/WhatsApp Image 2025-04-23 at 21.33.31_7c3ecfb9.jpg', code:'NC-S03', title:'Shehnaaz Gill — III' },
-      { img:'/nitin/photoshoot/shehnaazgill/WhatsApp Image 2025-04-23 at 21.33.31_982ec8cb.jpg', code:'NC-S04', title:'Shehnaaz Gill — IV'  },
-      { img:'/nitin/photoshoot/shehnaazgill/WhatsApp Image 2025-04-23 at 21.33.32_08804aec.jpg', code:'NC-S05', title:'Shehnaaz Gill — V'   },
-      { img:'/nitin/photoshoot/shehnaazgill/WhatsApp Image 2025-04-23 at 21.34.27_4086a265.jpg', code:'NC-S06', title:'Shehnaaz Gill — VI'  },
+      { img:'/nitin/photoshoot/shehnaazgill/sg-01.jpg', code:'NC-S01', title:'Shehnaaz Gill — I'   },
+      { img:'/nitin/photoshoot/shehnaazgill/sg-02.jpg', code:'NC-S02', title:'Shehnaaz Gill — II'  },
+      { img:'/nitin/photoshoot/shehnaazgill/sg-03.jpg', code:'NC-S03', title:'Shehnaaz Gill — III' },
+      { img:'/nitin/photoshoot/shehnaazgill/sg-04.jpg', code:'NC-S04', title:'Shehnaaz Gill — IV'  },
+      { img:'/nitin/photoshoot/shehnaazgill/sg-05.jpg', code:'NC-S05', title:'Shehnaaz Gill — V'   },
+      { img:'/nitin/photoshoot/shehnaazgill/sg-06.jpg', code:'NC-S06', title:'Shehnaaz Gill — VI'  },
     ]
   },
   {
     key: 'Bhool Chuk', label: 'Bhool Chuk Maaf', code: 'NC-B',
     cards: [
-      { img:'/nitin/photoshoot/bhoolchukmaf/_DSC5958.JPG',                               code:'NC-B01', title:'Bhool Chuk Maaf — I'   },
-      { img:'/nitin/photoshoot/bhoolchukmaf/final.png',                                   code:'NC-B02', title:'Bhool Chuk Maaf — II'  },
-      { img:'/nitin/photoshoot/bhoolchukmaf/final(1).png',                                code:'NC-B03', title:'Bhool Chuk Maaf — III' },
-      { img:'/nitin/photoshoot/bhoolchukmaf/ChatGPT Image Aug 9, 2026, 01_24_36 PM.png',  code:'NC-B04', title:'Bhool Chuk Maaf — IV'  },
+      { img:'/nitin/photoshoot/bhoolchukmaf/bcm-01.jpg', code:'NC-B01', title:'Bhool Chuk Maaf — I'   },
+      { img:'/nitin/photoshoot/bhoolchukmaf/bcm-02.png', code:'NC-B02', title:'Bhool Chuk Maaf — II'  },
+      { img:'/nitin/photoshoot/bhoolchukmaf/bcm-03.png', code:'NC-B03', title:'Bhool Chuk Maaf — III' },
+      { img:'/nitin/photoshoot/bhoolchukmaf/bcm-04.png', code:'NC-B04', title:'Bhool Chuk Maaf — IV'  },
     ]
   },
   {

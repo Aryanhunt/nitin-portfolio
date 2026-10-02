@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const LINKS = [['Music','#music'],['Video','#video'],['Photos','#photos'],['About','#about']]
+const LINKS = [['Music','#music'],['Video','#video'],['Photos','#photos'],['Films','#catalogue'],['About','#about']]
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

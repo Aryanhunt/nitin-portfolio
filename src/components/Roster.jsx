@@ -30,7 +30,7 @@ export default function Roster() {
   }, [video])
 
   return (
-    <section className="roster" id="about">
+    <section className="roster" id="catalogue">
       <div className="sec-label" style={{ marginBottom:'2rem' }}>Catalogue</div>
       {ROSTER.map((r,i) => (
         <div key={i} className={`roster-row ${r.img ? 'roster-row--poster' : ''}`}>
